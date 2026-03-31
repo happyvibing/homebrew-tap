@@ -7,22 +7,22 @@ class Fakekey < Formula
   on_macos do
     on_arm do
       url "https://github.com/happyvibing/fakekey/releases/download/v#{version}/fakekey-macos-arm64.tar.gz"
-      sha256 "6c88e71496427f36e9a69fd6dbe4d532bb9ef7d6a2105bd30115f25489c8ad0b"
+      sha256 "36120231c3a0b24c30022c5ddc6922f76234bc08a6e815b7a944bc2c9c4f83c6"
     end
     on_intel do
       url "https://github.com/happyvibing/fakekey/releases/download/v#{version}/fakekey-macos-amd64.tar.gz"
-      sha256 "5c4760b266e0e21a068fa63506762ef3e2712ad5f4c121791af9ab7d2ace1607"
+      sha256 "b88fefb79e35a5e38823f946cf8bbaee01226373e261fd223657cfbed884d0e9"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/happyvibing/fakekey/releases/download/v#{version}/fakekey-linux-arm64.tar.gz"
-      sha256 "7b09afdd1cc5424331fb8bcdda4b5113581bccfea7f4559380a216ce96e0f41e"
+      sha256 "29fa30f7a73029e6b274839e2af81db30e0ef920866c77a1c30f40bb731b7d34"
     end
     on_intel do
       url "https://github.com/happyvibing/fakekey/releases/download/v#{version}/fakekey-linux-amd64.tar.gz"
-      sha256 "a6f6a2e3f5cf7a501904d82e28cd68224e4b6ea37e305add22ce9d32a32187cd"
+      sha256 "45a3cf1e2354459da89589cb11956ad5f5958429d4012aa3b0544fa6494b95a5"
     end
   end
 
